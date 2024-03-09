@@ -1,0 +1,79 @@
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/*Image source */
+#weather-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*Weather details styles (details bar) */
+#weather-info {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #7ED957;
+  padding: 70px;
+  border-radius: 50px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+  bottom: 1;
+  
+}
+/* Search form styles */
+.search-container {
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: #00BF63;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Search input styles (search bar) */
+#search-input {
+  width: 80%;
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+
+
+/*Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
